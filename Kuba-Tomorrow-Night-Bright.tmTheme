@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>http://chriskempson.com</string>
+	<string>http://ieatfood.com</string>
 	<key>name</key>
-	<string>Tomorrow Night - Bright</string>
+	<string>Tomorrow Night - Kuba</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#000000</string>
+				<string>#1C1C1C</string>
 				<key>caret</key>
 				<string>#9F9F9F</string>
 				<key>foreground</key>
@@ -51,9 +51,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable, String Link, Regular Expression, Tag Name, GitGutter deleted</string>
+			<string>Variable, String Link, Regular Expression, Tag Name</string>
 			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag, markup.deleted.git_gutter</string>
+			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -88,9 +88,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String, Symbols, Inherited Class, Markup Heading, GitGutter inserted</string>
+			<string>String, Symbols, Inherited Class, Markup Heading</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter</string>
+			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -112,9 +112,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function, Special Method, Block Level, GitGutter changed</string>
+			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level, markup.changed.git_gutter</string>
+			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level, meta.delimiter.method</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -189,7 +189,7 @@
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
-		</dict>
+		</dict>				
 		<dict>
 			<key>name</key>
 			<string>Diff insertion</string>
@@ -224,7 +224,7 @@
 				<key>background</key>
 				<string>#4271ae</string>
 			</dict>
-		</dict>
+		</dict>		
 		<dict>
 			<key>name</key>
 			<string>Diff range</string>
@@ -236,6 +236,30 @@
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#3e999f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operators</string>
+			<key>scope</key>
+			<string>keyword.operator , punctuation - punctuation.definition.comment, meta.brace.round</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#70C0B1</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>$variable prefix</string>
+			<key>scope</key>
+			<string>punctuation.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#803D40</string>
 			</dict>
 		</dict>
 	</array>
